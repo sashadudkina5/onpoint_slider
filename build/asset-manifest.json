@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3708b974.css",
+    "main.js": "/static/js/main.a656d6b5.js",
+    "static/js/453.1ca1c621.chunk.js": "/static/js/453.1ca1c621.chunk.js",
+    "static/media/background.png": "/static/media/background.bc25cef58cda9a831411.png",
+    "static/media/bottle-image.png": "/static/media/bottle-image.3a81729339cfca8eaaa7.png",
+    "static/media/Circe-Regular.woff": "/static/media/Circe-Regular.b3583e41e063203a7e74.woff",
+    "static/media/Circe-Regular.woff2": "/static/media/Circe-Regular.b3583e41e063203a7e74.woff2",
+    "static/media/bacteria_long.png": "/static/media/bacteria_long.56d544b278d2504b97ec.png",
+    "static/media/bacteria_transparent.png": "/static/media/bacteria_transparent.3bc1ad4a9a48427c87db.png",
+    "static/media/Gilroy-Light.woff": "/static/media/Gilroy-Light.9df2f5dbbb9c90a6ede7.woff",
+    "static/media/Gilroy-Light.woff2": "/static/media/Gilroy-Light.9df2f5dbbb9c90a6ede7.woff2",
+    "static/media/Gilroy-ExtraBold.woff": "/static/media/Gilroy-ExtraBold.cb761043a2e505ff53c1.woff",
+    "static/media/Gilroy-ExtraBold.woff2": "/static/media/Gilroy-ExtraBold.cb761043a2e505ff53c1.woff2",
+    "static/media/sperm-visible.png": "/static/media/sperm-visible.3a533e7d2b17324932ec.png",
+    "static/media/bacteria_big.png": "/static/media/bacteria_big.ef63399d83c79db7c622.png",
+    "static/media/D-DIN-PRO.woff": "/static/media/D-DIN-PRO.dfe8ce1dc448fe508b94.woff",
+    "static/media/D-DIN-PRO.woff2": "/static/media/D-DIN-PRO.0136be22316495bc5626.woff2",
+    "static/media/pink_sperm_visible.png": "/static/media/pink_sperm_visible.fe1331d209eb2aefbb07.png",
+    "static/media/sperm-transparent.png": "/static/media/sperm-transparent.94bb8f4562189e1e9888.png",
+    "static/media/pink_sperm.png": "/static/media/pink_sperm.71f8bcb02835d737af77.png",
+    "static/media/bacteria_spike.png": "/static/media/bacteria_spike.552f803cfa287f4843d6.png",
+    "static/media/btn_close.svg": "/static/media/btn_close.100380fe5d6dae923cf5.svg",
+    "index.html": "/index.html",
+    "static/media/home-icon.svg": "/static/media/home-icon.f05c57ec6b729fe3be3f9ed389245e0c.svg",
+    "static/media/pagination-arrow-right.svg": "/static/media/pagination-arrow-right.0106d0ac3ba33deda42b.svg",
+    "main.3708b974.css.map": "/static/css/main.3708b974.css.map",
+    "main.a656d6b5.js.map": "/static/js/main.a656d6b5.js.map",
+    "453.1ca1c621.chunk.js.map": "/static/js/453.1ca1c621.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3708b974.css",
+    "static/js/main.a656d6b5.js"
+  ]
+}
