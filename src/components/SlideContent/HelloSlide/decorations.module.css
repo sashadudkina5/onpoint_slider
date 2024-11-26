@@ -1,0 +1,165 @@
+.helloSlideDecor__img {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+}
+
+.helloSlideDecor__container {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.helloSlideDecor__img_bacteria1 {
+  background-image: url('../../../assets/primary-decorations/bacteria1.png');
+  height: 100px;
+  width: 100px;
+  z-index: -1;
+  animation: bounce1 6s linear infinite;
+}
+
+@keyframes bounce1 {
+  0% {
+    bottom: 150px;
+    left: -50px;
+  }
+
+  50% {
+    bottom: 180px;
+    left: -40px;
+  }
+
+  100% {
+    bottom: 150px;
+    left: -50px;
+  }
+}
+
+.helloSlideDecor__img_bacteria_transparent {
+  background-image: url('../../../assets/primary-decorations/bacteria_transparent.png');
+  height: 77px;
+  width: 85px;
+  bottom: 120px;
+  left: 330px;
+}
+
+.helloSlideDecor__img_bacteria_transparent2 {
+  background-image: url('../../../assets/primary-decorations/bacteria_transparent2.png');
+  height: 70px;
+  width: 70px;
+  top: -30px;
+  right: 100px;
+}
+
+.helloSlideDecor__img_bacteria_big {
+  background-image: url('../../../assets/primary-decorations/bacteria_big.png');
+  height: 140px;
+  width: 290px;
+  right: 300px;
+  animation: bounce4 6s linear infinite;
+}
+
+@keyframes bounce4 {
+  0% {
+    height: 140px;
+    width: 290px;
+    bottom: 30px;
+  }
+
+  50% {
+    height: 180px;
+    width: 350px;
+    bottom: -0;
+  }
+
+  100% {
+    height: 140px;
+    width: 290px;
+    bottom: 30px;
+  }
+}
+
+.helloSlideDecor__img_bacteria2 {
+  background-image: url('../../../assets/primary-decorations/bacteria2.png');
+  height: 150px;
+  width: 150px;
+  animation: bounce5 8s linear infinite;
+}
+
+@keyframes bounce5 {
+  0% {
+    top: 0;
+    right: 380px;
+  }
+
+  50% {
+    top: 30px;
+    right: 300px;
+  }
+
+  100% {
+    top: 0;
+    right: 370px;
+  }
+}
+
+.helloSlideDecor__img_bacteria_long {
+  background-image: url('../../../assets/primary-decorations/bacteria_long.png');
+  height: 115px;
+  width: 215px;
+  top: 20px;
+  left: -150px;
+}
+
+.helloSlideDecor__img_bacteria_spike {
+  background-image: url('../../../assets/primary-decorations/bacteria_spike.png');
+  height: 170px;
+  width: 170px;
+  z-index: 2;
+  animation: bounce8 10s linear infinite, rotate8 25s linear infinite;
+}
+
+@keyframes bounce8 {
+  0% {
+    top: -20px;
+    right: 250px;
+  }
+
+  50% {
+    top: 70px;
+    right: 100px;
+  }
+
+  100% {
+    top: -20px;
+    right: 250px;
+  }
+}
+
+@keyframes rotate8 {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0);
+  }
+}
+
+.helloSlideDecor__img_pink_sperm_visible {
+  background-image: url('../../../assets/primary-decorations/pink_sperm_visible.png');
+  height: 200px;
+  width: 450px;
+  top: 130px;
+  right: 230px;
+  z-index: 1;
+}
+
+.helloSlideDecor__img_pink_sperm {
+  background-image: url('../../../assets/primary-decorations/pink_sperm.png');
+  height: 120px;
+  width: 210px;
+  bottom: 80px;
+  left: -70px;
+}

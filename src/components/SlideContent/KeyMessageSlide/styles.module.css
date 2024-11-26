@@ -1,0 +1,143 @@
+.keyMessageSlide {
+  padding: 120px 78px 0 228px;
+  width: 100vw;
+  color: #242424;
+  position: relative;
+  height: calc(100vh - 50px);
+}
+
+.keyMessageSlide__modal_overlay {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100vw;
+  height: 150vh;
+  opacity: 0.7;
+  background-color: #16273e;
+  z-index: 1;
+}
+
+.keyMessageSlide__key_info {
+  padding-left: 126px;
+  position: relative;
+  z-index: 4;
+  max-width: 600px;
+}
+
+.keyMessageSlide__title {
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+  color: #242424;
+  font-size: 27px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  height: 1em;
+  overflow: hidden;
+}
+
+.keyMessageSlide__title_text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.keyMessageSlide__title_text.visible {
+  opacity: 1;
+}
+
+.keyMessageSlide__title_text.hidden {
+  opacity: 0;
+}
+
+.keyMessageSlide__brand {
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 58px;
+  font-family: "Gilroy";
+  font-size: 95px;
+  letter-spacing: 10px;
+  margin-left: -5px;
+}
+
+.keyMessageSlide__advantages {
+  display: grid;
+  grid-template-columns: 1fr 262px;
+  grid-template-rows: auto auto;
+  column-gap: 40px;
+  row-gap: 35px;
+}
+
+.keyMessageSlide__advantage_item {
+  background-color: #fff;
+  color: #2e2e2e;
+  font-size: 25px;
+  padding: 45px;
+  border-radius: 40px;
+  box-shadow: 6px 8px 80px rgba(157, 185, 198, 0.39);
+  padding-top: 55px;
+  position: relative;
+}
+
+.keyMessageSlide__advantage_item::before {
+  content: "";
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: -70px;
+  left: 40px;
+  transform: translateY(50%);
+  width: 70px;
+  height: 70px;
+  background-size: contain;
+  background-position: center;
+}
+
+.keyMessageSlide__advantage_item_food {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.keyMessageSlide__advantage_item_food::before {
+  background-image: url("../../../assets/advantage-food.png");
+}
+
+.keyMessageSlide__advantage_item_calendar {
+  grid-column: 1;
+  grid-row: 1/-1;
+  padding-left: 126px;
+}
+
+.keyMessageSlide__advantage_item_calendar::before {
+  background-image: url("../../../assets/advantage-calendar.png");
+  left: 125px;
+}
+
+
+.keyMessageSlide__button {
+  grid-column: 2;
+  grid-row: 2;
+  cursor: pointer;
+  background-color: #ff6a9f;
+  border: none;
+  border-radius: 40px;
+  width: auto;
+  height: 80px;
+  padding: 10px;
+  padding-right: 45px;
+  padding-left: 85px;
+  font-family: "D-DIN-PRO", sans-serif;
+  background-image: url("../../../assets/more-button.png");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  background-size: auto 90%;
+}
+
+.keyMessageSlide__buttonText {
+  text-align: right;
+  margin: 0;
+  font-size: 27px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}

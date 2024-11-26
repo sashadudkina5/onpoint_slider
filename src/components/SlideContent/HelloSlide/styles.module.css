@@ -1,0 +1,60 @@
+.helloSlide {
+    padding: 115px 45px 0 70px;
+    width: 100vw;
+}
+
+.helloSlide__greeting {
+    font-size: 27px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.helloSlide__text {
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #171717;
+    font-weight: 300;
+    font-family: "Gilroy";
+    margin: 0;
+    display: inline;
+    vertical-align: bottom;
+}
+
+.helloSlide__content {
+    display: block;
+}
+
+.helloSlide__button {
+    display: inline;
+    cursor: pointer;
+    background-color: #ff6a9f;
+    border: none;
+    border-radius: 40px;
+    width: auto;
+    height: 80px;
+    vertical-align: bottom;
+    position: relative;
+    bottom: 1.5vw;
+    left: 50px;
+    padding: 10px;
+    padding-right: 33px;
+    padding-left: 90px;
+    font-family: "D-DIN-PRO", sans-serif;
+    background-image: url("../../../assets/next-slide-button.png");
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 90%;
+    position: relative;
+    z-index: 3;
+}
+
+.helloSlide__buttonText {
+    text-align: right;
+    margin: 0;
+    font-size: 27px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}

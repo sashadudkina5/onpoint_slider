@@ -1,0 +1,118 @@
+.spermSlide__container {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.spermSlide__sperm_cell {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 1;
+}
+
+.spermSlide__sperm_cell_1 {
+  background-image: url('../../../assets/sperms/sperm-visible.png');
+  width: 600px;
+  height: 300px;
+  animation: spermAppear1 3s linear forwards;
+}
+
+@keyframes spermAppear1 {
+  0% {
+    opacity: 0;
+    top: 70px;
+    right: -40px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 30px;
+    right: 70px;
+  }
+}
+
+.spermSlide__sperm_cell_2 {
+  background-image: url('../../../assets/sperms/sperm-transparent.png');
+  width: 400px;
+  height: 200px;
+  animation: spermAppear2 3s linear forwards;
+}
+
+@keyframes spermAppear2 {
+  0% {
+    opacity: 0;
+    top: 60px;
+    right: -20px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 30px;
+    right: 70px;
+  }
+}
+
+.spermSlide__sperm_cell_3 {
+  background-image: url('../../../assets/sperms/sperm-transparent.png');
+  width: 200px;
+  height: 150px;
+  animation: spermAppear3 3s linear forwards;
+}
+
+@keyframes spermAppear3 {
+  0% {
+    opacity: 0;
+    top: 80px;
+    right: 20px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 40px;
+    right: 130px;
+  }
+}
+
+.spermSlide__sperm_cell_4 {
+  background-image: url('../../../assets/sperms/sperm-transparent.png');
+  width: 150px;
+  height: 200px;
+  animation: spermAppear4 3s linear forwards;
+}
+
+@keyframes spermAppear4 {
+  0% {
+    opacity: 0;
+    right: -100px;
+    bottom: 150px;
+  }
+
+  100% {
+    opacity: 1;
+    right: 50px;
+    bottom: 200px;
+  }
+}
+
+.spermSlide__sperm_cell_5 {
+  background-image: url('../../../assets/sperms/sperm-transparent.png');
+  width: 150px;
+  height: 150px;
+  animation: spermAppear5 3s linear forwards;
+}
+
+@keyframes spermAppear5 {
+  0% {
+    opacity: 0;
+    bottom: 50px;
+    right: -100px;
+  }
+
+  100% {
+    opacity: 1;
+    bottom: 100px;
+    right: 30px;
+  }
+}

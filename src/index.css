@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-Light.woff2") format("woff2"),
+       url("./fonts/Gilroy-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("./fonts/Gilroy-ExtraBold.woff2") format("woff2"),
+       url("./fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "D-DIN-PRO";
+  src: url("./fonts/D-DIN-PRO.woff2") format("woff2"),
+       url("./fonts/D-DIN-PRO.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("./fonts/Circe-Regular.woff2") format("woff2"),
+       url("./fonts/Circe-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: "D-DIN-PRO", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+* {
+  box-sizing: border-box;
+}

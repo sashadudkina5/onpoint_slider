@@ -1,0 +1,77 @@
+.descriptionSlide {
+  width: 100vw;
+  padding: 85px 130px 55px 68px;
+}
+
+.descriptionSlide__text {
+  text-transform: uppercase;
+  color: #242424;
+  font-size: 27px;
+  font-weight: 300;
+  margin: 0;
+  margin-bottom: 45px;
+}
+
+.descriptionSlide__content {
+  padding-top: 30px;
+  background-color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  color: #171717;
+  margin: 0;
+  direction: ltr;
+  margin-left: 55px;
+  overflow: hidden;
+}
+
+.descriptionSlide__content br+p {
+  display: block;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.text_container {
+  background-color: white;
+  border-radius: 40px;
+  width: 775px;
+  height: 445px;
+  position: absolute;
+  z-index: 5;
+  direction: rtl;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 8px 125px rgba(157, 185, 198, 0.39);
+
+}
+
+.text_div {
+  width: 725px;
+  margin: -20px 100px 0 0;
+}
+
+.div {
+  width: 110%;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.div::-webkit-scrollbar {
+  width: 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.div::-webkit-scrollbar-track {
+  background: black;
+  border: 10px solid transparent;
+  background-clip: content-box;
+  border-radius: 5px;
+}
+
+.div::-webkit-scrollbar-thumb {
+  background: url("../../../assets/scrollbar-btn.png") no-repeat var(--thumb-position, center center);
+  background-size: contain;
+  transition: background-position 0.3s ease-in-out;
+}
