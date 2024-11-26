@@ -16,10 +16,10 @@
   height: 100px;
   width: 100px;
   z-index: -1;
-  animation: bounce1 6s linear infinite;
+  animation: floatBacteria1 6s linear infinite;
 }
 
-@keyframes bounce1 {
+@keyframes floatBacteria1 {
   0% {
     bottom: 150px;
     left: -50px;
@@ -57,10 +57,10 @@
   height: 140px;
   width: 290px;
   right: 300px;
-  animation: bounce4 6s linear infinite;
+  animation: pulseBacteriaBig 6s linear infinite;
 }
 
-@keyframes bounce4 {
+@keyframes pulseBacteriaBig {
   0% {
     height: 140px;
     width: 290px;
@@ -70,7 +70,7 @@
   50% {
     height: 180px;
     width: 350px;
-    bottom: -0;
+    bottom: 0;
   }
 
   100% {
@@ -84,10 +84,10 @@
   background-image: url('../../../assets/primary-decorations/bacteria2.png');
   height: 150px;
   width: 150px;
-  animation: bounce5 8s linear infinite;
+  animation: floatBacteria2 8s linear infinite;
 }
 
-@keyframes bounce5 {
+@keyframes floatBacteria2 {
   0% {
     top: 0;
     right: 380px;
@@ -100,7 +100,7 @@
 
   100% {
     top: 0;
-    right: 370px;
+    right: 380px;
   }
 }
 
@@ -117,10 +117,10 @@
   height: 170px;
   width: 170px;
   z-index: 2;
-  animation: bounce8 10s linear infinite, rotate8 25s linear infinite;
+  animation: bounceBacteriaSpike 10s linear infinite, rotateBacteriaSpike 25s linear infinite;
 }
 
-@keyframes bounce8 {
+@keyframes bounceBacteriaSpike {
   0% {
     top: -20px;
     right: 250px;
@@ -137,7 +137,7 @@
   }
 }
 
-@keyframes rotate8 {
+@keyframes rotateBacteriaSpike {
   0% {
     transform: rotate(360deg);
   }
