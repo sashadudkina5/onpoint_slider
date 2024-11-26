@@ -70,9 +70,9 @@ function DescriptionSlide({ keyTrigger }) {
         Текст <br /> сообщения
       </p>
 
-      <article className={styles.text_container}>
-        <div ref={divRef} className={styles.div}>
-          <div className={styles.text_div}>
+      <article className={styles.descriptionSlide__container}>
+        <div ref={divRef} className={styles.descriptionSlide__scrollable_container}>
+          <div className={styles.descriptionSlide__text_wrapper}>
             <p
               className={styles.descriptionSlide__content}
               dangerouslySetInnerHTML={{
